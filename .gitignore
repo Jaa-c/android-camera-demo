@@ -1,0 +1,8 @@
+/temp
+/bin
+/gen
+/nbandroid
+/private
+proguard-project.txt
+proguard.cfg
+

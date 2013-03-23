@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    
+    
+    <com.jaa.camera.CameraSurfaceView
+	android:id="@+id/preview"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_alignParentTop="true" />
+    
+    <TextView
+	android:id="@+id/fps"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="#fff"
+	android:textSize="40dp"
+    />
+    
+</FrameLayout>
